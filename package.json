@@ -1,0 +1,16 @@
+{
+  "name": "lets-make-a-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "copyLibraries": "cp node_modules/matter-js/build/matter.js build/js",
+    "build": "npm run copyLibraries"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "matter-js": "^0.19.0"
+  }
+}
